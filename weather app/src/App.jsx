@@ -45,7 +45,7 @@ function App() {
   }
   return (
     <>
-      <h1>hi</h1>
+      <h1>Wheather searcher by city</h1>
       <Searching onButtonClick={onSearch} />
       {loading && <p>Loading...</p>}
       <Display
