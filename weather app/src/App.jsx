@@ -23,7 +23,7 @@ function App() {
     try {
       setLoading(true);
       const response = await fetch(
-        `http://api.weatherstack.com/current?access_key=${api_key}&query=${city}`
+        `https://api.weatherstack.com/current?access_key=${api_key}&query=${city}`
       );
       if (response.ok) {
         const data = await response.json();
